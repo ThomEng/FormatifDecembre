@@ -1,0 +1,325 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	border-top: 3px solid #0089cf;
+	max-width: 1130px;
+}
+
+body {
+	font-family: Raleway;
+	font-size: 14px;
+	display: block;
+}
+
+h1 {
+	margin: 20px 0;
+	border-bottom: 2px solid;
+}
+
+
+p {
+	margin:15px 0;
+}
+
+
+.st-laurent-logo {
+	background: url('../images/logo.svg') no-repeat left center;
+	width: 250px;
+	height: 100px;
+	margin-left: 10px;
+}
+
+.accueil {
+	color: black;
+}
+
+.main-nav ul {
+	padding-left: 0;
+}
+
+.main-nav li {
+	border-bottom: 1px solid #c0c0c0;
+	padding: 2px 15px 3px 15px;
+}
+
+.main-nav li, a{
+	text-decoration: none;
+	list-style: none;
+	color: #0089cf;
+}
+
+.main-nav a:hover{
+	color:  #0d2d3c;
+}
+
+.main-nav p {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 10px;
+}
+
+.bg1-img {
+	background: url('../images/bg-1.jpg') no-repeat;
+	background-size: 100%;
+	width: auto;
+	height: 100px;
+}
+
+.banner {
+	background: url('../images/we-are-thumb.jpg') no-repeat;
+	background-size: 100%;
+	width: auto;
+	height: 400px;
+	margin-top: 20px;
+}
+
+.we-are-compact {
+	margin: 5px 25px;
+}
+
+
+.derniers-articles {
+	color: white;
+	background-color: #0089cf;
+}
+
+.d-a-2 {
+	padding: 2px 20px;
+	margin: 5px 0px;
+}
+
+.img-medium {
+	max-width: 100%;
+	height: auto;
+}
+
+.mobile-ready {
+	border: 2px solid;
+	border-color: #c0c0c0;
+	margin: 10px 25px;
+	padding: 15px 15px;
+	text-align: center;
+}
+
+.phone-img {
+	background: url('../images/mobile-solid.svg.') no-repeat;
+	background-size: 100%;
+	width: 30px;
+	height: 65px;
+	margin: 0 auto;
+}
+
+
+.very-easy {
+	border: 2px solid;
+	border-color: #c0c0c0;
+	margin: 10px 25px;
+	padding: 15px 15px;
+	text-align: center;
+}
+
+.wrench-img {
+	background: url('../images/wrench-solid.svg.') no-repeat;
+	background-size: 100%;
+	width: 45px;
+	height: 65px;
+	margin: 0 auto;
+
+}
+
+.free-icon {
+	border: 2px solid;
+	border-color: #c0c0c0;
+	margin: 10px 25px;
+	padding: 15px 15px;
+	text-align: center;
+}
+
+.icon-img {
+	background: url('../images/icon-solid.svg.') no-repeat;
+	background-size: 100%;
+	width: 40px;
+	height: 55px;
+	margin: 0 auto;
+}
+
+
+.main-footer {
+	background-color: #374f5a;
+	color: white;
+	padding: 1px;
+}
+
+.main-footer h2 {
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.main-footer ul li {
+	color: white;
+}
+
+.resume {
+	margin: 15px 10px;
+}
+
+.reseaux-img {
+	width: 15px;
+	height: 15px;
+	border-radius: 5px;
+	background-color: #0089cf;
+	padding: 3px;
+}
+
+.categories {
+	color: white;
+	margin: 15px 10px;
+}
+
+.categories-list {
+	margin: 15px 25px;
+	list-style: '> ';
+
+}
+
+.contact {
+	margin: 15px 10px;
+}
+
+.contact p {
+	margin: 3px 0;
+	
+}
+
+.newsletter {
+	margin: 15px 10px;
+}
+
+
+.mail {
+	padding: 6px;
+	font-size: 10px;
+}
+
+.button {
+	background-color: #0089cf;
+	padding: 6px 10px;
+	border-radius: 5px;
+	color: white;
+	border: none;
+	font-size: 10px;
+
+}
+
+.copyright {
+	color: white;
+	text-align: center;
+	border-top: 2px solid darkgrey;
+	font-size: 10px;
+	background-color: #374f5a;
+	padding: 1px;
+}
+
+
+@media screen and (min-width: 720px) {
+	.main-nav {
+		margin-left: 150px;
+		display: flex;
+	}
+	
+	.main-nav li {
+		display: inline-block;
+		position: relative;
+		border: none;
+		padding-top: 20px;
+	}
+	
+	.main-nav p {
+		position: relative;
+		display: block;
+		margin-left: 150px;
+		margin-top: 20px;
+		
+	}
+	
+	.st-laurent-logo {
+		background-size: 60%;
+		width: 200px;
+		height: 50px;	
+		display: block;
+		position: absolute;
+	}
+	
+	.bg1-img {
+		margin: 10px 0;
+		height: 210px;
+		width: auto;
+		display: flex
+	}
+	
+	.banner {
+		background-size: 100%;
+		display: inline-block;
+		height: 500px;
+		width: 400px;
+	}
+	
+	.we-are-compact {
+		position: absolute;
+		display: inline-block;
+		margin: 5px 35px;
+		height: 700px;
+	}
+	
+	.img-medium {
+		background-size: 100%;
+		max-width: 100%;
+		height: auto;
+		width: 0 auto; 
+	}
+		
+	.three-square {
+		display: flex;
+		position: relative;
+		margin: 5px 5px;
+		padding: 5px 20px;
+	}
+
+	.main-footer {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+
+	.resume {
+		max-width: 50%;
+		margin-right: 10px;
+		display: block;
+	}
+
+	.categories {
+		display: inline-block;
+		margin-right: 200px;
+		flex-direction: column;
+	}
+
+	.contact {
+		display: inline-flex;
+		margin-right: 150px;
+		flex-direction: column;
+	}
+
+	.newsletter {
+		display: inline-flex;
+		flex-direction: column;
+	}
+
+
+
+
+
+
+
